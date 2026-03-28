@@ -28,6 +28,7 @@ p{
     color: #FFFFFFFF;
 }
 /*--------------------------------------*/
+
 /*header*/
 header{
     display: flex;
@@ -43,8 +44,69 @@ header div{
     padding: 40px 20px;
 }
 
-/*--------------------------------------*/
+/*--------midia social-------------*/
 
+.rd-social {
+    margin-top: 15px;
+    display: flex;
+    gap: 15px;
+}
+
+.rd-social {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 15px;
+}
+
+.rd-social a {
+    color: white;
+    font-size: 25px;
+}
+
+.mn-text {
+    text-align: center;
+}
+
+.section-light {
+    background-color: #f1f1f1;
+    padding: 60px 20px;
+}
+/*--------------------------*/
+
+/*--------Parte do meio - Imagem com o computador e texto---------*/
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.img-box img {
+    width: 400px;
+    height: 400px;
+}
+
+.text-box {
+    max-width: 400px;
+}
+
+.title {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 14px;
+    color: #555;
+}
+/*------------------------------*/
+
+
+
+
+/*--------------------------------------*/
 
 @media only screen and (max-width: 900px){
 
