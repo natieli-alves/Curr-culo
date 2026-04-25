@@ -256,6 +256,56 @@ p{
     font-weight: bold;
 }
 
+/* galeria de fotos */
+.portfolio-section {
+    background-color: #1E2E27;
+    padding: 60px 40px;
+}
+
+.portfolio-container {
+    display: flex;
+    gap: 20px;
+}
+
+/* ESQUERDA */
+.left {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* imagem grande de cima */
+.left .top {
+    height: 260px;
+    object-fit: cover;
+}
+
+/* duas de baixo */
+.bottom {
+    display: flex;
+    gap: 20px;
+}
+
+.bottom img {
+    width: 50%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* DIREITA */
+.right {
+    width: 30%;
+    height: 480px;
+}
+
+.right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
 
 /*------------- RESPONSIVO -------------*/
 @media only screen and (max-width: 600px){
