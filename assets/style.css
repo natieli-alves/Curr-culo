@@ -474,24 +474,31 @@ footer{
 
 
 
-/*------------- RESPONSIVO -------------*/
+/*------------- RESPONSIVO PARA CELULAR-------------*/
+
 @media only screen and (max-width: 600px){
-    header div{
+    .header{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .bg-light, .bg-dark{
         width: 100%;
         text-align: center;
-        padding: 50px;
+        padding: 30px 14px;
     }
 
-    .container{
-        flex-direction: column;
+    #img-eu img{
+        max-width: 220px;
     }
 
-    .stats{
-        width: 90%;
+    .botao-sombra{
+        align-items: center;
     }
 
-    .techs{
-        flex-direction: column;
-        gap: 30px;
+    .rd-social{
+        align-items: center;
+        justify-content: center;
+        width: 100%;
     }
 }
