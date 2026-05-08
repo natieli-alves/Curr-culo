@@ -176,6 +176,7 @@ p{
     gap: 80px;
     margin-top: 80px;
     flex-wrap: wrap;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
 .card{
@@ -292,6 +293,14 @@ p{
 
 .css {
     color: #264de4;
+}
+
+.py{
+    color: #3776AB;
+}
+
+.redes{
+    color: #FF9F1A;
 }
 
 .tech p {
@@ -729,8 +738,8 @@ footer{
     .banner-img{
         width: 100%;
     }
-
-     .tech-section .stats h2 {
+    
+    .tech-section .stats h2 {
         font-size: 24px;  
     }
 
