@@ -150,17 +150,17 @@ p{
 }
 
 .underscore{
-    display: flex;
-    flex-direction: column;
+    display: inline-block;
     position: relative;
 }
 
 .underscore::after{
     content: '';
-    width: 20%;
+    width: 70px;
     height: 4px;
     background-color: #FF9F1A;
     margin-top: 3px;
+    display: block;
 }
 
 .description {
@@ -211,7 +211,7 @@ p{
 }
 
 .banner-text {
-    width: 40%;
+    width: 30%;
     padding: 60px;
     display: flex;
     flex-direction: column;
@@ -225,8 +225,9 @@ p{
     line-height: 27px;
 }
 
+
 .banner-img {
-    width: 60%;
+    width: 70%;
     display: flex;
 }
 
@@ -468,7 +469,6 @@ footer{
     font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
-
 /*------------- RESPONSIVO PARA CELULAR-------------*/
 
 @media only screen and (max-width: 600px){
@@ -521,12 +521,13 @@ footer{
 
     .title{
         text-align: center;
-        font-size: 1.2rem;
+        font-size: 1rem;
         position: relative;
     }
 
-    .title::after{
-        left: 50%;
+    .underscore::after{
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .description{
@@ -571,20 +572,31 @@ footer{
     width: 100%;
     }
 
-    .stats{
-        width: 90%;
+     .tech-section .stats h2 {
+        font-size: 24px;  
     }
 
+    .tech-section .stats p {
+        font-size: 12px; 
+    }
+
+    .tech-section .tech p {
+        font-size: 14px;  
+    }
+    
     .techs{
         flex-direction: column;
         gap: 30px;
     }
 
-    .portfolio-container{
+    .portfolio-inner, .portfolio-container{
+        width: 100%;
+        gap: 0;
+        padding: 0;
+        margin: 0;
         flex-direction: column;
-        gap: 20px;
     }
-
+    
     .portfolio-text{
         align-items: center;
         text-align: center;
@@ -592,26 +604,20 @@ footer{
 
     .left, .right{
         width: 100%;
+        gap: 0;
+        padding: 0;
+        margin: 0;
     }
 
     .bottom{
         flex-direction: column;
-        gap: 20px;
+        gap: 0;
+        padding: 0;
+        margin: 0;
     }
 
-    .left .top{
+    .left .top, .right img, .bottom img{
         width: 100%;
-        height: 210px;
-    }   
-
-    .bottom img{
-        width: 100%;
-        height: 260px;
-    }
-
-    .right img{
-        width: 100%;
-        height: 360px;
     }
 
     .sobre-mim-container{
