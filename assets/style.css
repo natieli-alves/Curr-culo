@@ -43,8 +43,6 @@ p{
 .white-title{
     color: #fff;
 }
-/*--------------------------------------*/
-
 
 /*--------------- HEADER ---------------*/
 .header{
@@ -100,8 +98,6 @@ p{
     display: block;
 
 }
-/*--------------------------------------*/
-
 
 /*----------- REDES SOCIAIS ------------*/
 .rd-social {
@@ -118,10 +114,8 @@ p{
 .mn-text {
     margin-top: 30px;
 }
-/*--------------------------------------*/
 
-
-/*--------------- SECTION --------------*/
+/*---------------INOVAÇÃO--------------*/
 .section-light {
     background-color: #f1f1f1;
     padding: 60px 20px;
@@ -201,8 +195,8 @@ p{
     font-size: 14px;
     color: #ccc;
 }
-/*--------------------------------------*/
 
+/*---------------- BANNER ----------------*/
 .section-banner {
     width: 100%;
     display: flex;
@@ -307,7 +301,7 @@ p{
     font-weight: bold;
 }
 
-
+/*---------------- GALEREIA DE IMAGENS ----------------*/
 .portfolio-section {
     display: flex;
     width: 100%;
@@ -373,6 +367,7 @@ p{
     object-fit: cover;
 }
 
+/*---------------- SOBRE MIM ----------------*/
 .sobre-mim{
     display: flex;
     flex-direction: column;
@@ -424,6 +419,7 @@ p{
     text-align: justify;
 }
 
+/*---------------- RODAPE ----------------*/
 footer{
     width: 100%;
 }
