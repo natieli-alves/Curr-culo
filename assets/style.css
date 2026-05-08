@@ -286,7 +286,6 @@ p{
     margin-bottom: 10px;
 }
 
-/* cores dos ícones */
 .html {
     color: #e44d26;
 }
@@ -469,6 +468,165 @@ footer{
     font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
+/*------------- RESPONSIVO TABLET -------------*/
+
+@media only screen and (max-width: 900px){
+    .header{
+        position: relative;
+    }
+
+    .bg-dark{
+        width: 60%;
+        padding: 40px;
+    }
+
+    .bg-light{
+        width: 40%;
+        padding: 40px;
+    }
+
+    #img-eu {     
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+
+    #img-eu img{
+        width: auto;
+        max-width: 310px;
+        height: 240px;
+    }
+
+    .font-grande{
+        font-size: 1.2rem;
+    }
+
+    .container{
+        gap: 20px;
+    }
+
+    .img-box img{
+        width: 250px;
+    }
+
+    .text-box{
+        width: 50%;
+    }
+
+    .description{
+        font-size: 0.8rem;
+    }
+
+    .cards{
+        gap: 30px;
+        padding: 80px 0;
+    }
+
+    .card{
+        width: 180px;
+        padding: 30px 15px;
+    }
+
+    .banner-text{
+        padding: 30px;
+    }
+
+    .banner-text p{
+        font-size: 0.8rem;
+    }
+
+    .techs{
+        gap: 40px;
+    }
+
+    .portfolio-inner {
+        width: 90%;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .portfolio-container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px; 
+    }
+
+    .left {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .left .top {
+        width: 100%;
+        height: 240px;
+    
+    }
+
+    .bottom {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .bottom img {
+        width: 50%;
+        height: 180px;
+    }
+
+    .right {
+        width: 100%;
+    }
+
+    .right img {
+        width: 100%;
+        height: 440px;
+    }
+
+    .sobre-mim-container{
+        width: 70%;
+        padding: 50px;
+    }
+
+    .sm_arrumar{
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .sobre-mim-esq{
+        width: 80%;
+        text-align: center;
+    }
+
+    .sobre-mim-esq p{
+        font-size: 1.2rem;
+    }
+
+    .sobre-mim-dir{
+        width: 100%;
+    }
+
+    .sobre-mim-dir p{
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .rodape{
+        flex-direction: row;
+    }
+
+    .rodape-infos, .rodape-ctts{
+        width: 100%;
+        padding: 40px 20px;
+    }
+
+    .rodape-ctts-dados{
+        font-size: 1.1rem;
+    }
+}
+
 /*------------- RESPONSIVO PARA CELULAR-------------*/
 
 @media only screen and (max-width: 600px){
@@ -569,7 +727,7 @@ footer{
     }
 
     .banner-img{
-    width: 100%;
+        width: 100%;
     }
 
      .tech-section .stats h2 {
@@ -596,7 +754,7 @@ footer{
         margin: 0;
         flex-direction: column;
     }
-    
+
     .portfolio-text{
         align-items: center;
         text-align: center;
